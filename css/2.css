@@ -1,0 +1,213 @@
+        .desk6-group {
+            display: flex;
+            flex-direction: column;
+            background-color: #0d0308;
+        }
+        
+        .desk6-group.layout {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .desk6-group1 {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .desk6-group1.layout {
+            position: relative;
+            height: 880px;
+            width: 85%;
+            margin: 130px 7% 120px 7.5%;
+        }
+        
+        .desk6-group2 {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .desk6-group2.layout {
+            position: absolute;
+            top: 0px;
+            height: 766px;
+            left: 0px;
+            right: 0px;
+            width: 49.51%;
+            margin: 0px 0% 12px 50.49%;
+        }
+        
+        .desk6-rect {
+            background-color: #251317;
+            border-radius: 45px 45px 45px 45px;
+            opacity: 0.1;
+            background: #cd536e;
+        }
+        
+        .desk6-rect.layout {
+            position: absolute;
+            top: 0px;
+            height: 488px;
+            left: 0px;
+            right: 0px;
+            width: 46.14%;
+            margin: 0px 53.86% 278px 0%;
+        }
+        
+        .desk6-rect1 {
+            background-color: rgba(52, 29, 34, 0.6);
+            border-radius: 37px 37px 37px 37px;
+            opacity: 0.1;
+            background: #cd536e;
+        }
+        
+        .desk6-rect1.layout {
+            position: absolute;
+            top: 0px;
+            height: 206px;
+            left: 0px;
+            right: 0px;
+            width: 46.14%;
+            margin: 2px 0% 558px 53.86%;
+        }
+        
+        .desk6-rect2 {
+            background-color: rgba(52, 29, 34, 0.6);
+            border-radius: 37px 37px 37px 37px;
+            opacity: 0.1;
+            background: #cd536e;
+        }
+        
+        .desk6-rect2.layout {
+            position: absolute;
+            top: 0px;
+            height: 244px;
+            left: 0px;
+            right: 0px;
+            width: 46.14%;
+            margin: 244px 0% 278px 53.86%;
+        }
+        
+        .desk6-rect3 {
+            background-color: rgba(52, 29, 34, 0.6);
+            border-radius: 37px 37px 37px 37px;
+            opacity: 0.1;
+            background: #cd536e;
+        }
+        
+        .desk6-rect3.layout {
+            position: absolute;
+            top: 0px;
+            height: 239px;
+            left: 0px;
+            right: 0px;
+            margin: 527px 0px 0px;
+        }
+        
+        .desk6-flex {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .desk6-flex.layout {
+            position: absolute;
+            top: 105px;
+            bottom: 395px;
+            left: 0px;
+            right: 0px;
+            width: 44.55%;
+            margin: 0px 55.45% 0px 0%;
+        }
+        
+        .desk6-txt {
+            font: 500 40px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 1px;
+        }
+        
+        .desk6-txt.layout {
+            position: relative;
+            width: 100%;
+            margin: 0px 34.12% 0px 0%;
+        }
+        
+        .desk6-txt1-box {
+            opacity: 0.77;
+        }
+        
+        .desk6-txt1-box.layout {
+            position: relative;
+            margin: 58px 0px 0px;
+        }
+        
+        .desk6-txt1 {
+            overflow: visible;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin: 0px;
+            font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 0.5px;
+            white-space: pre-wrap;
+        }
+        
+        .desk6-flex.layout1 {
+            position: absolute;
+            top: 675px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            width: 44.96%;
+            margin: 0px 55.04% 0px 0%;
+        }
+        
+        .desk6-txt2 {
+            font: 600 32px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 0.8px;
+        }
+        
+        .desk6-txt2.layout {
+            position: relative;
+        }
+        
+        .desk6-img.layout {
+            position: relative;
+            height: 4px;
+            margin: 8px 0px 0px;
+            background: linear-gradient(270deg, #F25042 0%, #FF097F 100%);
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .desk6-flex.layout {
+                position: absolute;
+                top: -65px;
+                bottom: 395px;
+                left: 0px;
+                right: 0px;
+                width: 100%;
+                text-align: center;
+            }
+            .desk6-txt.layout {
+                position: relative;
+                width: 100%;
+            }
+            .desk6-group2.layout {
+                display: none;
+            }
+            .desk6-rec {
+                padding-top: 22rem;
+            }
+            .desk6-group1.layout {
+                height: 1000px;
+            }
+            .desk6-flex.layout1 {
+                top: 850px;
+                width: 100%;
+            }
+        }
+        
+        @media only screen and (min-width: 500px) {
+            .desk6-rec {
+                display: none
+            }
+        }

@@ -1,0 +1,831 @@
+        .desk5-page-block {
+            display: flex;
+            flex-direction: column;
+            background: var(--src) center center/cover no-repeat;
+            background-color: white;
+        }
+        
+        .desk5-page-block.layout {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .desk5-page-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .desk5-page-group.layout1 {
+            position: relative;
+            height: 776px;
+            width: 64.03%;
+            margin: 155px auto 93px;
+        }
+        
+        .desk5-page-group.layout {
+            position: absolute;
+            top: 0px;
+            height: 140px;
+            left: 0px;
+            right: 0px;
+            width: 77.01%;
+            margin: 0px auto 636px;
+        }
+        
+        .desk5-page-hero-title-box {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .desk5-page-hero-title-box.layout {
+            position: absolute;
+            top: 0px;
+            bottom: 90px;
+            left: 0px;
+            right: 0px;
+        }
+        
+        .desk5-page-hero-title {
+            font: 500 40px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: black;
+            text-align: center;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2470588235);
+            letter-spacing: 1px;
+        }
+        
+        .desk5-page-hero-title-span0 {
+            font: 500 1em/1.2 "Outfit", Helvetica, Arial, serif;
+            color: #ffffffff;
+            letter-spacing: 1px;
+        }
+        
+        .desk5-page-hero-title-span1 {
+            font: 500 1em/1.2 "Outfit", Helvetica, Arial, serif;
+            background: linear-gradient(90deg, #F25042 50%, #FF097F 124.3%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1px;
+        }
+        
+        .desk5-page-subtitle {
+            display: flex;
+            justify-content: center;
+            font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            text-align: center;
+            letter-spacing: 0.5px;
+            opacity: 0.77;
+        }
+        
+        .desk5-page-subtitle.layout {
+            position: absolute;
+            top: 92px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            width: 85.35%;
+            margin: 0px auto;
+            padding-top: 1rem;
+        }
+        
+        .desk5-page-group1 {
+            display: flex;
+            flex-direction: column;
+            background: var(--src) center center/cover no-repeat;
+            border-radius: 25px 25px 25px 25px;
+        }
+        
+        .desk5-page-group1.layout {
+            position: absolute;
+            top: 0px;
+            height: 506px;
+            left: 0px;
+            right: 0px;
+            margin: 270px 0px 0px;
+            background: linear-gradient(144.98deg, rgba(255, 255, 255, 0.1) -48.28%, rgba(255, 255, 255, 0) 163.48%);
+            backdrop-filter: blur(42px);
+            -webkit-backdrop-filter: blur(42px);
+        }
+        
+        .desk5-page-box {
+            background-color: rgba(46, 23, 29, 0.639);
+            border-radius: 11px 11px 11px 11px;
+            opacity: 0.25;
+        }
+        
+        .desk5-page-box.layout {
+            position: absolute;
+            top: 0px;
+            height: 153px;
+            left: 0px;
+            right: 0px;
+            width: 44.79%;
+            margin: 31px 46.1% 322px 9.11%;
+            background: #501727;
+            backdrop-filter: blur(42px);
+            -webkit-backdrop-filter: blur(42px);
+        }
+        
+        .desk5-page-box1 {
+            background-color: rgba(46, 23, 29, 0.639);
+            border-radius: 11px 11px 11px 11px;
+            opacity: 0.25;
+        }
+        
+        .desk5-page-box1.layout {
+            position: absolute;
+            top: 0px;
+            height: 153px;
+            left: 0px;
+            right: 0px;
+            width: 19.52%;
+            margin: 31px 23.86% 322px 56.62%;
+            background: #501727;
+        }
+        
+        .desk5-page-box1.layout1 {
+            position: absolute;
+            top: 0px;
+            height: 153px;
+            left: 0px;
+            right: 0px;
+            width: 19.52%;
+            margin: 199px 23.86% 154px 56.62%;
+            background: #501727;
+        }
+        
+        .desk5-page-box2 {
+            background-color: rgba(46, 23, 29, 0.639);
+            border-radius: 11px 11px 11px 11px;
+            opacity: 0.25;
+        }
+        
+        .desk5-page-box2.layout {
+            position: absolute;
+            top: 0px;
+            height: 266px;
+            left: 0px;
+            right: 0px;
+            width: 44.79%;
+            margin: 203px 46.1% 37px 9.11%;
+            background: #501727;
+        }
+        
+        .desk5-page-box3 {
+            background-color: rgba(46, 23, 29, 0.639);
+            border-radius: 11px 11px 11px 11px;
+            opacity: 0.25;
+        }
+        
+        .desk5-page-box3.layout {
+            position: absolute;
+            top: 0px;
+            height: 102px;
+            left: 0px;
+            right: 0px;
+            width: 40.56%;
+            margin: 367px 2.82% 37px 56.62%;
+            background: #501727;
+        }
+        
+        .desk5-page-box1.layout2 {
+            position: absolute;
+            top: 0px;
+            height: 153px;
+            left: 0px;
+            right: 0px;
+            width: 19.52%;
+            margin: 199px 2.82% 154px 77.66%;
+            background: #501727;
+        }
+        
+        .desk5-page-box1.layout3 {
+            position: absolute;
+            top: 0px;
+            height: 153px;
+            left: 0px;
+            right: 0px;
+            width: 19.52%;
+            margin: 31px 2.82% 322px 77.66%;
+            background: #501727;
+        }
+        
+        .desk5-page-box4 {
+            background-color: rgba(202, 202, 202, 0.027);
+        }
+        
+        .desk5-page-box4.layout {
+            position: absolute;
+            top: 0px;
+            height: 115px;
+            left: 0px;
+            right: 0px;
+            width: 0.22%;
+            margin: 50px 60.85% 341px 38.94%;
+        }
+        
+        .desk5-page-box4.layout1 {
+            position: absolute;
+            top: 0px;
+            height: 115px;
+            left: 0px;
+            right: 0px;
+            width: 0.22%;
+            margin: 50px 75.7% 341px 24.08%;
+        }
+        
+        .desk5-page-icon {
+            background: var(--src) center center/cover no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .desk5-page-image1 {
+            background: var(--src) center center/cover no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .desk5-page-icon1 {
+            background: var(--src) center center/cover no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .desk5-page-subtitle1 {
+            display: flex;
+            justify-content: center;
+            font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            text-align: center;
+            letter-spacing: 0.5px;
+        }
+        
+        .desk5-page-subtitle1.layout {
+            position: absolute;
+            top: 97px;
+            bottom: 385px;
+            left: 0px;
+            right: 0px;
+            width: 1.95%;
+            margin: 0px 86.98% 0px 11.06%;
+        }
+        
+        .desk5-page-subtitle2 {
+            font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 0.5px;
+        }
+        
+        .desk5-page-subtitle2.layout {
+            position: absolute;
+            top: 97px;
+            bottom: 385px;
+            left: 0px;
+            right: 0px;
+            width: 6.62%;
+            margin: 0px 80.15% 0px 13.23%;
+        }
+        
+        .desk5-page-subtitle3 {
+            display: flex;
+            justify-content: center;
+            font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            text-align: center;
+            letter-spacing: 0.5px;
+        }
+        
+        .desk5-page-subtitle3.layout {
+            position: absolute;
+            top: 97px;
+            bottom: 385px;
+            left: 0px;
+            right: 0px;
+            width: 1.95%;
+            margin: 0px 86.98% 0px 11.06%;
+        }
+        
+        .desk5-page-subtitle4 {
+            font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 0.5px;
+        }
+        
+        .desk5-page-subtitle4.layout {
+            position: absolute;
+            top: 97px;
+            bottom: 385px;
+            left: 0px;
+            right: 0px;
+            width: 6.62%;
+            margin: 0px 80.15% 0px 13.23%;
+        }
+        
+        .desk5-page-subtitle5 {
+            display: flex;
+            justify-content: center;
+            font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            text-align: center;
+            letter-spacing: 0.5px;
+        }
+        
+        .desk5-page-subtitle5.layout {
+            position: absolute;
+            top: 96px;
+            bottom: 386px;
+            left: 0px;
+            right: 0px;
+            width: 1.95%;
+            margin: 0px 72.67% 0px 25.38%;
+        }
+        
+        .desk5-page-subtitle6 {
+            font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 0.5px;
+        }
+        
+        .desk5-page-subtitle6.layout {
+            position: absolute;
+            top: 96px;
+            bottom: 386px;
+            left: 0px;
+            right: 0px;
+            width: 4.34%;
+            margin: 0px 68.11% 0px 27.55%;
+        }
+        
+        .desk5-page-subtitle7 {
+            font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 0.5px;
+        }
+        
+        .desk5-page-subtitle7.layout {
+            position: absolute;
+            top: 97px;
+            bottom: 385px;
+            left: 0px;
+            right: 0px;
+            width: 4.88%;
+            margin: 0px 54.77% 0px 40.35%;
+        }
+        
+        .desk5-page-box5 {
+            background-color: rgba(183, 235, 216, 0.419);
+            border-radius: 3px 3px 3px 3px;
+            opacity: 0.41;
+        }
+        
+        .desk5-page-box5.layout {
+            position: absolute;
+            top: 0px;
+            height: 11px;
+            left: 0px;
+            right: 0px;
+            width: 3.69%;
+            margin: 154px 85.03% 341px 11.28%;
+            background: #501727;
+        }
+        
+        .desk5-page-box6 {
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 3px 3px 3px 3px;
+            opacity: 0.4;
+        }
+        
+        .desk5-page-box6.layout {
+            position: absolute;
+            top: 0px;
+            height: 13px;
+            left: 0px;
+            right: 0px;
+            width: 5.53%;
+            margin: 154px 54.12% 339px 40.35%;
+            background: #501727;
+        }
+        
+        .desk5-page-image2 {
+            background: var(--src) center center/cover no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .desk5-page-small-text-body {
+            font: 500 5px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 0.13px;
+        }
+        
+        .desk5-page-small-text-body.layout {
+            position: absolute;
+            top: 157px;
+            bottom: 343px;
+            left: 0px;
+            right: 0px;
+            width: 1.3%;
+            margin: 0px 86.23% 0px 12.47%;
+        }
+        
+        .desk5-page-box5.layout1 {
+            position: absolute;
+            top: 0px;
+            height: 11px;
+            left: 0px;
+            right: 0px;
+            width: 3.69%;
+            margin: 154px 70.61% 341px 25.7%;
+        }
+        
+        .desk5-page-small-text-body.layout1 {
+            position: absolute;
+            top: 157px;
+            bottom: 343px;
+            left: 0px;
+            right: 0px;
+            width: 1.19%;
+            margin: 0px 71.91% 0px 26.9%;
+        }
+        
+        .desk5-page-small-text-body1 {
+            display: flex;
+            justify-content: center;
+            font: 500 5px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            text-align: center;
+            letter-spacing: 0.13px;
+        }
+        
+        .desk5-page-small-text-body1.layout {
+            position: absolute;
+            top: 157px;
+            bottom: 343px;
+            left: 0px;
+            right: 0px;
+            width: 4.23%;
+            margin: 0px 54.83% 0px 40.94%;
+        }
+        
+        .desk5-page-small-text-body2 {
+            font: 500 5px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 0.13px;
+            opacity: 0.56;
+        }
+        
+        .desk5-page-small-text-body2.layout {
+            position: absolute;
+            top: 84px;
+            bottom: 416px;
+            left: 0px;
+            right: 0px;
+            width: 4.99%;
+            margin: 0px 69.31% 0px 25.7%;
+        }
+        
+        .desk5-page-small-text-body3 {
+            font: 500 5px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 0.13px;
+            opacity: 0.56;
+        }
+        
+        .desk5-page-small-text-body3.layout {
+            position: absolute;
+            top: 84px;
+            bottom: 416px;
+            left: 0px;
+            right: 0px;
+            width: 3.8%;
+            margin: 0px 85.25% 0px 10.95%;
+        }
+        
+        .desk5-page-highlights {
+            font: 600 15px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 0px;
+        }
+        
+        .desk5-page-highlights.layout {
+            position: absolute;
+            top: 383px;
+            bottom: 105px;
+            left: 0px;
+            right: 0px;
+            width: 4.45%;
+            margin: 0px 36.77% 0px 58.79%;
+        }
+        
+        .desk5-page-box7 {
+            background-color: #e74a4a;
+            border-radius: 5px 5px 5px 5px;
+        }
+        
+        .desk5-page-box7.layout {
+            position: absolute;
+            top: 0px;
+            height: 11px;
+            left: 0px;
+            right: 0px;
+            width: 35.25%;
+            margin: 415px 5.97% 80px 58.79%;
+            background: #501727;
+        }
+        
+        .desk5-page-box8 {
+            background-color: rgba(255, 255, 255, 0.886);
+            border-radius: 0px 5px 5px 0px;
+            opacity: 0.88;
+        }
+        
+        .desk5-page-box8.layout {
+            position: absolute;
+            top: 0px;
+            height: 11px;
+            left: 0px;
+            right: 0px;
+            width: 8.35%;
+            margin: 415px 5.97% 80px 85.68%;
+            background: #501727;
+        }
+        
+        .desk5-page-box9 {
+            background-color: rgba(0, 0, 0, 0.886);
+            opacity: 0.88;
+        }
+        
+        .desk5-page-box9.layout {
+            position: absolute;
+            top: 0px;
+            height: 11px;
+            left: 0px;
+            right: 0px;
+            width: 8.35%;
+            margin: 415px 14.32% 80px 77.33%;
+            background: #501727;
+        }
+        
+        .desk5-page-box10 {
+            background-color: #866262;
+        }
+        
+        .desk5-page-box10.layout {
+            position: absolute;
+            top: 0px;
+            height: 11px;
+            left: 0px;
+            right: 0px;
+            width: 8.35%;
+            margin: 415px 22.67% 80px 68.98%;
+            background: #501727;
+        }
+        
+        .desk5-page-icon2 {
+            background: var(--src) center center/cover no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .desk5-page-cover1 {
+            background: var(--src) center center/cover no-repeat;
+        }
+        
+        .desk5-page-cover1.layout {
+            position: absolute;
+            top: 0px;
+            height: 184px;
+            left: 0px;
+            right: 0px;
+            width: 38.29%;
+            margin: 244px 49.35% 78px 12.36%;
+        }
+        
+        .desk5-page-image3 {
+            background: var(--src) center center/cover no-repeat;
+        }
+        
+        .desk5-page-image3.layout {
+            position: absolute;
+            top: 0px;
+            height: 100px;
+            left: 0px;
+            right: 0px;
+            width: 37.96%;
+            margin: 283px 49.57% 123px 12.47%;
+        }
+        
+        .desk5-page-icon3 {
+            background: var(--src) center center/cover no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .desk5-page-image4 {
+            background: var(--src) center center/cover no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .desk5-page-icon4 {
+            background: var(--src) center center/cover no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .desk5-page-highlights.layout1 {
+            position: absolute;
+            top: 97px;
+            bottom: 391px;
+            left: 0px;
+            right: 0px;
+            width: 3.15%;
+            margin: 0px 31.78% 0px 65.08%;
+        }
+        
+        .desk5-page-highlights.layout2 {
+            position: absolute;
+            top: 265px;
+            bottom: 223px;
+            left: 0px;
+            right: 0px;
+            width: 3.15%;
+            margin: 0px 10.63% 0px 86.23%;
+        }
+        
+        .desk5-page-highlights.layout3 {
+            position: absolute;
+            top: 265px;
+            bottom: 223px;
+            left: 0px;
+            right: 0px;
+            width: 3.15%;
+            margin: 0px 31.89% 0px 64.97%;
+        }
+        
+        .desk5-page-highlights.layout4 {
+            position: absolute;
+            top: 96px;
+            bottom: 392px;
+            left: 0px;
+            right: 0px;
+            width: 3.15%;
+            margin: 0px 10.74% 0px 86.12%;
+        }
+        
+        .desk5-page-box11 {
+            background-color: rgba(134, 98, 98, 0.258);
+            border-radius: 5px 5px 5px 5px;
+            opacity: 0.25;
+        }
+        
+        .desk5-page-box11.layout {
+            position: absolute;
+            top: 0px;
+            height: 22px;
+            left: 0px;
+            right: 0px;
+            width: 16.7%;
+            margin: 148px 25.16% 336px 58.13%;
+        }
+        
+        .desk5-page-small-text-body11 {
+            display: flex;
+            justify-content: center;
+            font: 500 12px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            text-align: center;
+            letter-spacing: 0px;
+        }
+        
+        .desk5-page-small-text-body11.layout {
+            position: absolute;
+            top: 151px;
+            bottom: 340px;
+            left: 0px;
+            right: 0px;
+            width: 3.8%;
+            margin: 0px 31.72% 0px 64.48%;
+        }
+        
+        .desk5-page-box11.layout1 {
+            position: absolute;
+            top: 0px;
+            height: 22px;
+            left: 0px;
+            right: 0px;
+            width: 16.7%;
+            margin: 320px 4.01% 164px 79.28%;
+        }
+        
+        .desk5-page-small-text-body12 {
+            display: flex;
+            justify-content: center;
+            font: 500 12px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            text-align: center;
+            letter-spacing: 0px;
+        }
+        
+        .desk5-page-small-text-body12.layout {
+            position: absolute;
+            top: 323px;
+            bottom: 168px;
+            left: 0px;
+            right: 0px;
+            width: 3.8%;
+            margin: 0px 10.57% 0px 85.63%;
+        }
+        
+        .desk5-page-box11.layout2 {
+            position: absolute;
+            top: 0px;
+            height: 22px;
+            left: 0px;
+            right: 0px;
+            width: 16.7%;
+            margin: 320px 25.16% 164px 58.13%;
+        }
+        
+        .desk5-page-small-text-body13 {
+            display: flex;
+            justify-content: center;
+            font: 500 12px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            text-align: center;
+            letter-spacing: 0px;
+        }
+        
+        .desk5-page-small-text-body13.layout {
+            position: absolute;
+            top: 323px;
+            bottom: 168px;
+            left: 0px;
+            right: 0px;
+            width: 3.8%;
+            margin: 0px 31.72% 0px 64.48%;
+        }
+        
+        .desk5-page-box11.layout3 {
+            position: absolute;
+            top: 0px;
+            height: 22px;
+            left: 0px;
+            right: 0px;
+            width: 16.7%;
+            margin: 148px 4.01% 336px 79.28%;
+        }
+        
+        .desk5-page-small-text-body14 {
+            display: flex;
+            justify-content: center;
+            font: 500 12px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            text-align: center;
+            letter-spacing: 0px;
+        }
+        
+        .desk5-page-small-text-body14.layout {
+            position: absolute;
+            top: 151px;
+            bottom: 340px;
+            left: 0px;
+            right: 0px;
+            width: 3.8%;
+            margin: 0px 10.57% 0px 85.63%;
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .desk5-page-group.layout {
+                top: -75px;
+                width: 100%;
+            }
+            .desk5-page-group.layout1 {
+                width: 90%
+            }
+            .desk5-page-subtitle.layout {
+                padding-top: 4.5rem;
+            }
+        }
+        
+        @media only screen and (min-width: 1000px) {
+            .desk5-phone-img {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 1000px) {
+            .desk5-phone-img {
+                width: 100%;
+                height: auto;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                margin: 270px 0px 0px;
+            }
+            .desk5-page-group1.layout {
+                display: none;
+            }
+        }

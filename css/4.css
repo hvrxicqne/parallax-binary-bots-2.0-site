@@ -1,0 +1,141 @@
+                                                    .desk1-block {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        background: var(--src) center center/cover no-repeat;
+                                                        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2470588235);
+                                                        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2470588235));
+                                                    }
+                                                    
+                                                    .desk1-block.layout {
+                                                        position: relative;
+                                                        overflow: hidden;
+                                                        background-image: linear-gradient(180.69deg, #5A1643 0.59%, #000000 107.66%);
+                                                    }
+                                                    
+                                                    .desk1-decorator1 {
+                                                        background: var(--src) center center/cover no-repeat;
+                                                    }
+                                                    
+                                                    .desk1-decorator1.layout {
+                                                        position: absolute;
+                                                        top: -461px;
+                                                        height: 1242px;
+                                                        left: -35px;
+                                                        width: 723px;
+                                                    }
+                                                    
+                                                    .desk1-decorator {
+                                                        background: var(--src) center center/cover no-repeat;
+                                                    }
+                                                    
+                                                    .desk1-decorator.layout {
+                                                        position: absolute;
+                                                        top: -113px;
+                                                        height: 919px;
+                                                        width: 793px;
+                                                        right: -298px;
+                                                    }
+                                                    
+                                                    .desk1-group {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                    }
+                                                    
+                                                    .desk1-group.layout {
+                                                        position: relative;
+                                                        height: 350px;
+                                                        width: 34.17%;
+                                                        margin: 350px 58.54% 100px 7.29%;
+                                                    }
+                                                    
+                                                    .desk1-image1 {
+                                                        background: var(--src) center center/cover no-repeat;
+                                                        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2470588235));
+                                                    }
+                                                    
+                                                    .desk1-image1.layout {
+                                                        position: absolute;
+                                                        top: 0px;
+                                                        height: 75px;
+                                                        left: 0px;
+                                                        right: 21px;
+                                                        margin: 0px 0px 277px;
+                                                        font-family: 'Outfit';
+                                                        font-style: normal;
+                                                        font-weight: 500;
+                                                        font-size: 64px;
+                                                        letter-spacing: 0.025em;
+                                                        background: linear-gradient(90deg, #F25042 -5.51%, #FF097F 103.31%);
+                                                        -webkit-background-clip: text;
+                                                        -webkit-text-fill-color: transparent;
+                                                        background-clip: text;
+                                                    }
+                                                    
+                                                    .desk1-hero-title-box.layout {
+                                                        position: absolute;
+                                                        top: 78px;
+                                                        bottom: 138px;
+                                                        left: 0px;
+                                                        right: 0px;
+                                                    }
+                                                    
+                                                    .desk1-hero-title {
+                                                        overflow: visible;
+                                                        margin-top: 0px;
+                                                        margin-bottom: 0px;
+                                                        margin: 0px;
+                                                        font: 500 48px/1.2 "Outfit", Helvetica, Arial, serif;
+                                                        color: white;
+                                                        letter-spacing: 0px;
+                                                        white-space: pre-wrap;
+                                                    }
+                                                    
+                                                    .desk1-subtitle-box {
+                                                        opacity: 0.77;
+                                                    }
+                                                    
+                                                    .desk1-subtitle-box.layout {
+                                                        position: absolute;
+                                                        top: 212px;
+                                                        bottom: 0px;
+                                                        left: 0px;
+                                                        right: 0px;
+                                                        width: 88.62%;
+                                                        margin: 0px 11.38% 0px 0%;
+                                                    }
+                                                    
+                                                    .desk1-subtitle {
+                                                        overflow: visible;
+                                                        margin-top: 0px;
+                                                        margin-bottom: 0px;
+                                                        margin: 0px;
+                                                        font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+                                                        color: white;
+                                                        letter-spacing: 0.5px;
+                                                        white-space: pre-wrap;
+                                                    }
+                                                    
+                                                    @media only screen and (max-width: 800px) {
+                                                        .desk1-group.layout {
+                                                            width: 100%;
+                                                            height: 450px;
+                                                            margin: 253px 58.54% 100px 7.29%;
+                                                        }
+                                                        .desk1-decorator.layout {
+                                                            position: absolute;
+                                                            top: -113px;
+                                                            height: 519px;
+                                                            width: 793px;
+                                                            right: -499px;
+                                                        }
+                                                        .desk1-decorator1.layout {
+                                                            position: absolute;
+                                                            top: -685px;
+                                                            height: 1491px;
+                                                            left: -121px;
+                                                            width: 267px;
+                                                        }
+                                                        .desk1-subtitle-box.layout {
+                                                            top: 280px;
+                                                        }
+                                                    }
