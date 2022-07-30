@@ -352,4 +352,7 @@
     .desk4-subtitle1.layout3 {
         left: -5vw;
     }
+    .desk4-highlights {
+        font: 12px/1.2 "Outfit", Helvetica, Arial, serif;
+    }
 }
