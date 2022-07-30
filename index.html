@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="./css/3.css" />
     <link rel="stylesheet" type="text/css" href="./css/4.css" />
     <link rel="stylesheet" type="text/css" href="./css/5.css" />
+    <link rel="stylesheet" type="text/css" href="./css/6.css" />
+    <link rel="stylesheet" type="text/css" href="./css/7.css" />
 
 
 
@@ -22,7 +24,31 @@
 </head>
 
 <body style="display: flex; flex-direction: column">
+
+
     <div class="desk1 desk1-block layout" style="padding-bottom: 5rem;">
+        <header>
+            <h2 class="hero-title">Parallax Studio</h2>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Purchase</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Purchase</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="./js/mobile.js"></script>
+
         <div style="--src:url(./assets/imgdec1.png);     background: var(--src) center center / contain no-repeat;" class="desk1-decorator1 layout"></div>
         <div style="--src:url(./assets/imgdec2.png);     background: var(--src) center center / contain no-repeat;" class="desk1-decorator layout"></div>
         <div class="desk1-group layout">
@@ -47,9 +73,10 @@ At The Parallax Engine, we like to improve things for our community so that they
                 <div x="1fr 78px 469fr" y="0px 15px 179px" absolute="true">
                     <div class="desk3-image1" style="--src:url(./assets/aboutus.png);     background: var(--src) center center / cover no-repeat;"></div>
                 </div>
-                <h1 class="desk3-hero-title layout">Lorem Ipsum</h1>
+                <h1 class="desk3-hero-title layout">Parallax Studio</h1>
                 <h3 class="desk3-subtitle-box layout">
-                    <pre class="desk3-subtitle">A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.</pre>
+                    <pre class="desk3-subtitle">Introducing an online platform that is a simple place to invest and sell in stocks and uses data science and artificial intelligence to match your financial goals with the most accurate investments that are approved by professionals.</pre
+</pre>
                 </h3>
         </div>
         <div class="desk3-group layout1">
@@ -87,12 +114,12 @@ Introducing an online platform that is a simple place to invest and sell in stoc
         <div class="desk5-group layout">
           <h1 class="desk5-hero-title-box layout">
             <div class="desk5-hero-title">
-              <span class="desk5-hero-title-span0">Achieve your targets with </span
-              ><span class="desk5-hero-title-span1">lorem ipsum</span>
+              <span class="desk5-hero-title-span0">Achieve your targets with</span
+              ><span class="desk5-hero-title-span1"> Parallax</span>
             </div>
           </h1>
           <h3 class="desk5-subtitle layout">
-            A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic.
+Introducing an online platform that is a simple place to invest and sell in stocks and uses data science and artificial intelligence to match your financial goals with the most accurate investments that are approved by professionals.</pre
           </h3>
         </div>
                     <img src="./assets/phone.png" class="desk5-phone-img">
@@ -315,6 +342,94 @@ Free subscription for multi- media plaforms.</pre
         </div>
       </div>
     </div>
+    <footer class="footer">
+  <div class="footer__addr">
+    <img src="https://media.discordapp.net/attachments/991037629732642827/1003004242845519992/logo.png" width="10%" height="auto">
+    <h1 class="footer__logo">Parallax Studio</h1>
+        
+    <h2>Contact</h2>
+    
+    <address>
+      Xyz on Earth<br>
+              </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Help</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Purchase</a>
+        </li>
+
+        <li>
+          <a href="#">Home</a>
+        </li>
+            
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Quick Links</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        
+        <li>
+          <a href="#">Purchase</a>
+        </li>
+        
+        <li>
+          <a href="#">About Us</a>
+        </li>
+        
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+        
+        <li>
+          <a href="#">Reach Out</a>
+        </li>
+        
+        <li>
+          <a href="#">Edit</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        
+        <li>
+          <a href="#">Terms of Use</a>
+        </li>
+        
+        <li>
+          <a href="#">Code of Conduct</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2019 Parallax. All rights reserved.</p>
+    
+    <div class="legal__links">
+      <span>Made by Parallax Studio.</span>
+    </div>
+  </div>
+</footer>
     <script type="text/javascript">
         AOS.init();
     </script>
