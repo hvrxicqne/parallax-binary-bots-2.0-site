@@ -1,0 +1,355 @@
+.desk4-block {
+    display: flex;
+    flex-direction: column;
+    background-color: #0d0308;
+}
+
+.desk4-block.layout {
+    position: relative;
+    overflow: hidden;
+}
+
+.desk4-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.desk4-group.layout1 {
+    position: relative;
+    height: 748px;
+    width: 62.08%;
+    margin: 134px auto 142px;
+}
+
+.desk4-group.layout {
+    position: absolute;
+    top: 0px;
+    height: 121px;
+    left: 0px;
+    right: 0px;
+    width: 69.91%;
+    margin: 0px auto 627px;
+}
+
+.desk4-hero-title-box.layout {
+    position: absolute;
+    top: 0px;
+    bottom: 71px;
+    left: 0px;
+    right: 0px;
+}
+
+.desk4-hero-title {
+    font: 500 40px/1.2 "Outfit", Helvetica, Arial, serif;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.desk4-hero-title-span0 {
+    font: 500 1em/1.2 "Outfit", Helvetica, Arial, serif;
+    color: #ffffffff;
+    letter-spacing: 1px;
+}
+
+.desk4-hero-title-span1 {
+    font: 500 1em/1.2 "Outfit", Helvetica, Arial, serif;
+    background: linear-gradient(90deg, #F25042 50%, #FF097F 124.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent letter-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.desk4-subtitle {
+    display: flex;
+    justify-content: center;
+    font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.5px;
+    opacity: 0.77;
+}
+
+.desk4-subtitle.layout {
+    position: absolute;
+    top: 73px;
+    bottom: 0px;
+    left: 14px;
+    right: 5px;
+}
+
+.desk4-group1 {
+    display: flex;
+    flex-direction: column;
+    background: var(--src) center center/cover no-repeat;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.desk4-group1.layout {
+    position: absolute;
+    top: 0px;
+    height: 542px;
+    left: 0px;
+    right: 0px;
+    margin: 206px 0px 0px;
+    background: linear-gradient(144.98deg, rgba(255, 255, 255, 0.1) -48.28%, rgba(255, 255, 255, 0) 163.48%);
+    backdrop-filter: blur(42px);
+}
+
+.desk4-box {
+    background-color: rgba(255, 255, 255, 0.058);
+}
+
+.desk4-box.layout {
+    position: absolute;
+    top: 0px;
+    height: 407px;
+    left: 0px;
+    right: 0px;
+    width: 2px;
+    min-width: 2px;
+    margin: 62px auto 73px;
+}
+
+.desk4-image1 {
+    background: var(--src) center center/cover no-repeat;
+}
+
+.desk4-image1.layout {
+    position: absolute;
+    top: 0px;
+    height: 3px;
+    left: 0px;
+    right: 0px;
+    width: 36.02%;
+    margin: 277px 58.39% 262px 5.59%;
+}
+
+.desk4-image1.layout1 {
+    position: absolute;
+    top: 0px;
+    height: 3px;
+    left: 0px;
+    right: 0px;
+    width: 36.02%;
+    margin: 277px 7.49% 262px 56.49%;
+}
+
+.desk4-hero-title1 {
+    font: 500 36px/1.2 "Outfit", Helvetica, Arial, serif;
+    color: white;
+    letter-spacing: 0.9px;
+}
+
+.desk4-hero-title1.layout {
+    position: absolute;
+    top: 50px;
+    bottom: 448px;
+    left: 0px;
+    right: 0px;
+    width: 16.33%;
+    margin: 0px 78.08% 0px 5.59%;
+}
+
+.desk4-subtitle1 {
+    font: 20px/1.2 "Outfit", Helvetica, Arial, serif;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.desk4-subtitle1.layout {
+    position: absolute;
+    top: 210px;
+    bottom: 308px;
+    left: 0px;
+    right: 0px;
+    width: 8.17%;
+    margin: 0px 73.94% 0px 17.9%;
+}
+
+.desk4-subtitle1.layout1 {
+    position: absolute;
+    top: 210px;
+    bottom: 308px;
+    left: 0px;
+    right: 0px;
+    width: 8.17%;
+    margin: 0px 14.09% 0px 77.74%;
+}
+
+.desk4-hero-title1.layout1 {
+    position: absolute;
+    top: 50px;
+    bottom: 448px;
+    left: 0px;
+    right: 0px;
+    width: 12.98%;
+    margin: 0px 30.87% 0px 56.15%;
+}
+
+.desk4-hero-title1.layout2 {
+    position: absolute;
+    top: 144px;
+    bottom: 354px;
+    left: 0px;
+    right: 0px;
+    width: 3.47%;
+    margin: 0px 91.05% 0px 5.48%;
+}
+
+.desk4-hero-title1.layout3 {
+    position: absolute;
+    top: 144px;
+    bottom: 354px;
+    left: 0px;
+    right: 0px;
+    width: 3.47%;
+    margin: 0px 40.04% 0px 56.49%;
+}
+
+.desk4-hero-title2 {
+    font: 500 96px/1.2 "Outfit", Helvetica, Arial, serif;
+    color: white;
+    letter-spacing: 2.4px;
+}
+
+.desk4-hero-title2.layout {
+    position: absolute;
+    top: 125px;
+    bottom: 301px;
+    left: 0px;
+    right: 0px;
+    width: 8.84%;
+    margin: 0px 80.87% 0px 10.29%;
+}
+
+.desk4-hero-title2.layout1 {
+    position: absolute;
+    top: 125px;
+    bottom: 301px;
+    left: 0px;
+    right: 0px;
+    width: 18.34%;
+    margin: 0px 20.92% 0px 60.74%;
+}
+
+.desk4-highlights-box.layout {
+    position: absolute;
+    top: 300px;
+    bottom: 206px;
+    left: 0px;
+    right: 0px;
+    width: 40.83%;
+    margin: 0px 53.02% 0px 6.15%;
+}
+
+.desk4-highlights {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: 15px/1.2 "Outfit", Helvetica, Arial, serif;
+    color: white;
+    letter-spacing: 0.38px;
+    white-space: pre-wrap;
+}
+
+.desk4-highlights-box.layout1 {
+    position: absolute;
+    top: 304px;
+    bottom: 166px;
+    left: 0px;
+    right: 0px;
+    width: 35.01%;
+    margin: 0px 8.39% 0px 56.6%;
+}
+
+.desk4-box1 {
+    background-color: rgba(134, 98, 98, 0.258);
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0.25;
+}
+
+.desk4-box1.layout {
+    position: absolute;
+    top: 0px;
+    height: 47px;
+    left: 0px;
+    right: 0px;
+    width: 36.91%;
+    margin: 445px 56.94% 50px 6.15%;
+}
+
+.desk4-box1.layout1 {
+    position: absolute;
+    top: 0px;
+    height: 47px;
+    left: 0px;
+    right: 0px;
+    width: 36.91%;
+    margin: 445px 6.49% 50px 56.6%;
+}
+
+.desk4-subtitle1.layout2 {
+    position: absolute;
+    top: 456px;
+    bottom: 62px;
+    left: 0px;
+    right: 0px;
+    width: 10.74%;
+    margin: 0px 69.8% 0px 19.46%;
+}
+
+.desk4-subtitle1.layout3 {
+    position: absolute;
+    top: 456px;
+    bottom: 62px;
+    left: 0px;
+    right: 0px;
+    width: 10.74%;
+    margin: 0px 18.23% 0px 71.03%;
+}
+
+@media only screen and (max-width: 500px) {
+    .desk4-group.layout1 {
+        position: relative;
+        height: 748px;
+        width: 80%;
+        margin: 58px auto 250px;
+    }
+    .desk4-group.layout {
+        width: 100%;
+    }
+    .desk4-hero-title {
+        text-align: center;
+    }
+    .desk4-subtitle.layout {
+        top: 175px;
+    }
+    .desk4-group1.layout {
+        top: 150px;
+        text-align: center;
+    }
+    .desk4-hero-title1 {
+        font: 500 24px/1.2 "Outfit", Helvetica, Arial, serif;
+    }
+    .desk4-hero-title2 {
+        font: 500 70px/1.2 "Outfit", Helvetica, Arial, serif;
+    }
+    .desk4-subtitle1.layout1 {
+        left: -10vw;
+    }
+    .desk4-hero-title2.layout {
+        left: 10vw;
+    }
+    .desk4-hero-title1.layout2 {
+        left: 30px;
+    }
+    .desk4-subtitle1.layout2 {
+        left: -5vw;
+    }
+    .desk4-subtitle1.layout3 {
+        left: -5vw;
+    }
+}

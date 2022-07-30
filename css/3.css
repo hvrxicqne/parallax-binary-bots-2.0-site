@@ -1,182 +1,202 @@
-                        .desk3-block {
-                            display: flex;
-                            flex-direction: column;
-                            background: var(--src) center center/cover no-repeat;
-                        }
-                        
-                        .desk3-block.layout {
-                            position: relative;
-                            overflow: hidden;
-                            background-color: #0b0308;
-                        }
-                        
-                        .desk3-decorator {
-                            background: var(--src) center center/cover no-repeat;
-                        }
-                        
-                        .desk3-decorator.layout {
-                            position: absolute;
-                            top: 10px;
-                            height: 919px;
-                            width: 793px;
-                            right: -265px;
-                        }
-                        
-                        .desk3-decorator.layout1 {
-                            position: absolute;
-                            top: 0px;
-                            height: 919px;
-                            width: 793px;
-                            right: -366px;
-                        }
-                        
-                        .desk3-group {
-                            display: flex;
-                            flex-direction: column;
-                        }
-                        
-                        .desk3-group.layout2 {
-                            position: relative;
-                            height: 689px;
-                            width: 87.99%;
-                            margin: 167px 4.58% 168px 7.43%;
-                        }
-                        
-                        .desk3-group.layout {
-                            position: absolute;
-                            top: 0px;
-                            height: 194px;
-                            left: 0px;
-                            right: 0px;
-                            width: 43.25%;
-                            margin: 125px 56.75% 257px 0%;
-                        }
-                        
-                        .desk3-image1 {
-                            background: var(--src) center center/cover no-repeat;
-                            width: 100%;
-                            height: 100%;
-                        }
-                        
-                        .desk3-hero-title {
-                            font: 500 40px/1.2 "Outfit", Helvetica, Arial, serif;
-                            color: white;
-                            letter-spacing: 1px;
-                        }
-                        
-                        .desk3-hero-title.layout {
-                            position: absolute;
-                            top: 34px;
-                            bottom: 112px;
-                            left: 0px;
-                            right: 0px;
-                            width: 100%;
-                            margin: 0px 54.2% 0px 0%;
-                        }
-                        
-                        .desk3-subtitle-box {
-                            opacity: 0.77;
-                        }
-                        
-                        .desk3-subtitle-box.layout {
-                            position: absolute;
-                            top: 98px;
-                            bottom: 0px;
-                            left: 0px;
-                            right: 0px;
-                        }
-                        
-                        .desk3-subtitle {
-                            overflow: visible;
-                            margin-top: 0px;
-                            margin-bottom: 0px;
-                            margin: 0px;
-                            font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
-                            color: white;
-                            letter-spacing: 0.5px;
-                            white-space: pre-wrap;
-                        }
-                        
-                        .desk3-group.layout1 {
-                            position: absolute;
-                            top: 0px;
-                            height: 173px;
-                            left: 0px;
-                            right: 0px;
-                            width: 45%;
-                            margin: 450px 58.09% 0px 0%;
-                        }
-                        
-                        .desk3-image2 {
-                            background: var(--src) center center/cover no-repeat;
-                            border-radius: 25px 25px 25px 25px;
-                        }
-                        
-                        .desk3-image2.layout {
-                            position: absolute;
-                            top: 0px;
-                            height: 173px;
-                            left: 0px;
-                            right: 0px;
-                            width: 48.4%;
-                            margin: 0px 51.6% 0px 0%;
-                        }
-                        
-                        .desk3-image2.layout1 {
-                            position: absolute;
-                            top: 0px;
-                            height: 173px;
-                            left: 0px;
-                            right: 0px;
-                            width: 48.4%;
-                            margin: 0px 0% 0px 51.6%;
-                        }
-                        
-                        .desk3-image3 {
-                            background: var(--src) center center/cover no-repeat;
-                        }
-                        
-                        .desk3-image3.layout {
-                            position: absolute;
-                            top: 0px;
-                            height: 594px;
-                            left: 0px;
-                            right: 0px;
-                            width: 41.36%;
-                            margin: 0px 0% 95px 58.64%;
-                        }
-                        
-                        @media only screen and (max-width: 800px) {
-                            .desk3-group.layout {
-                                width: 100%;
-                            }
-                            .desk3-decorator.layout {
-                                top: -350px;
-                                height: 919px;
-                                width: 793px;
-                                right: -400px;
-                            }
-                            .desk3-decorator.layout1 {
-                                position: absolute;
-                                top: -385px;
-                                height: 900px;
-                                width: 793px;
-                                right: -450px;
-                            }
-                            .desk3-image3.layout {
-                                position: absolute;
-                                top: 0px;
-                                height: 240px;
-                                left: 0px;
-                                right: 0px;
-                                margin: 0px 0%;
-                                width: 100%
-                            }
-                            .desk3-group.layout {
-                                margin: 230px 56.75% 257px 0%;
-                            }
-                            .desk3-group.layout1 {
-                                width: 100%;
-                                margin: 550px 58.09% 0px 0%;
-                            }
-                        }
+        .desk3-block {
+            display: flex;
+            flex-direction: column;
+            background: var(--src) center center/cover no-repeat;
+        }
+        
+        .desk3-block.layout {
+            position: relative;
+            overflow: hidden;
+            background-color: #0b0308;
+        }
+        
+        .desk3-decorator {
+            background: var(--src) center center/cover no-repeat;
+        }
+        
+        .desk3-decorator.layout {
+            position: absolute;
+            top: 10px;
+            height: 919px;
+            width: 793px;
+            right: -265px;
+        }
+        
+        .desk3-decorator.layout1 {
+            position: absolute;
+            top: 0px;
+            height: 919px;
+            width: 793px;
+            right: -366px;
+        }
+        
+        .desk3-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .desk3-group.layout2 {
+            position: relative;
+            height: 689px;
+            width: 87.99%;
+            margin: 167px 4.58% 168px 7.43%;
+        }
+        
+        .desk3-group.layout {
+            position: absolute;
+            top: 0px;
+            height: 194px;
+            left: 0px;
+            right: 0px;
+            width: 43.25%;
+            margin: 125px 56.75% 257px 0%;
+        }
+        
+        .desk3-image1 {
+            background: var(--src) center center/cover no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .desk3-hero-title {
+            font: 500 40px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 1px;
+        }
+        
+        .desk3-hero-title.layout {
+            position: absolute;
+            top: 34px;
+            bottom: 112px;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            margin: 0px 54.2% 0px 0%;
+        }
+        
+        .desk3-subtitle-box {
+            opacity: 0.77;
+        }
+        
+        .desk3-subtitle-box.layout {
+            position: absolute;
+            top: 98px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+        }
+        
+        .desk3-subtitle {
+            overflow: visible;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin: 0px;
+            font: 500 20px/1.2 "Outfit", Helvetica, Arial, serif;
+            color: white;
+            letter-spacing: 0.5px;
+            white-space: pre-wrap;
+        }
+        
+        .desk3-group.layout1 {
+            position: absolute;
+            top: 0px;
+            height: 173px;
+            left: 0px;
+            right: 0px;
+            width: 45%;
+            margin: 450px 58.09% 0px 0%;
+        }
+        
+        .desk3-image2 {
+            background: var(--src) center center/cover no-repeat;
+            border-radius: 25px 25px 25px 25px;
+        }
+        
+        .desk3-image2.layout {
+            position: absolute;
+            top: 0px;
+            height: 173px;
+            left: 0px;
+            right: 0px;
+            width: 48.4%;
+            margin: 0px 51.6% 0px 0%;
+        }
+        
+        .desk3-image2.layout1 {
+            position: absolute;
+            top: 0px;
+            height: 173px;
+            left: 0px;
+            right: 0px;
+            width: 48.4%;
+            margin: 0px 0% 0px 51.6%;
+        }
+        
+        .desk3-image3 {
+            background: var(--src) center center/cover no-repeat;
+        }
+        
+        .desk3-image3.layout {
+            position: absolute;
+            top: 0px;
+            height: 594px;
+            left: 0px;
+            right: 0px;
+            width: 41.36%;
+            margin: 0px 0% 95px 58.64%;
+            -webkit-animation: mover 1s infinite alternate;
+            animation: mover 1s infinite alternate;
+        }
+        
+        @-webkit-keyframes mover {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        @keyframes mover {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .desk3-group.layout {
+                width: 100%;
+            }
+            .desk3-decorator.layout {
+                top: 23px;
+                height: 960px;
+                width: 795px;
+                right: -400px;
+            }
+            .desk3-decorator.layout1 {
+                position: absolute;
+                top: 16px;
+                height: 900px;
+                width: 775px;
+                right: -450px;
+            }
+            .desk3-image3.layout {
+                position: absolute;
+                top: 0px;
+                height: 240px;
+                left: 0px;
+                right: 0px;
+                margin: 0px 0%;
+                width: 100%
+            }
+            .desk3-group.layout {
+                margin: 230px 56.75% 257px 0%;
+            }
+            .desk3-group.layout1 {
+                width: 100%;
+                margin: 550px 58.09% 0px 0%;
+            }
+        }
