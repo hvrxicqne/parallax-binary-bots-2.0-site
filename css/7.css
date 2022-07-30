@@ -3,7 +3,7 @@
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
     color: #fff;
-    background-image: linear-gradient(180deg, hsla(330, 63%, 3%, 1) 0%, hsla(323, 57%, 15%, 1) 100%);
+    background: #200b12;
     ;
     border-top: none;
     font-family: "Outfit", Helvetica, Arial, serif;
